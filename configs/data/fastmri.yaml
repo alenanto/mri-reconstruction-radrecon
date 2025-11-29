@@ -1,0 +1,4 @@
+defaults:
+  - default
+
+dataset_path: ${paths.data_dir}/fastMRI_breast/

@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: fastmri # choose datamodule with `test_dataloader()` for evaluation
+  - model: dce
+  - logger: tensorboard
+  - trainer: gpu
+  - paths: default
+  - extras: default
+  - hydra: default
+
+task_name: "eval"
+
+tags: ["dev"]
+
+# passing checkpoint path is necessary for evaluation
+ckpt_path: /home/hpc/iwbi/iwbi101h/ssdu_working/logs/train/runs/ssdu_0.75_6/checkpoints/epoch_053.ckpt

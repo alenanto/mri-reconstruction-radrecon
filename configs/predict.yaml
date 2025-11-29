@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: fastmri # choose datamodule with `predict_dataloader()` for prediction
+  - model: dce
+  - logger: tensorboard
+  - trainer: gpu
+  - paths: default
+  - extras: default
+  - hydra: default
+
+task_name: "predict"
+
+tags: ["dev"]
+
+# passing checkpoint path is necessary for evaluation
+ckpt_path: logs/train/runs/2025-07-10_16-38-12/checkpoints/epoch_080.ckpt
