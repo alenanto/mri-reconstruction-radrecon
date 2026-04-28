@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pdf
+*.pptx
+*.docx
+data/
+images/
+other/
