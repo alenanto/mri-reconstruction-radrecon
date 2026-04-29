@@ -41,4 +41,7 @@ This project uses the **fastMRI Breast dataset**.
 
 ⚠️ Note:
 The dataset is publicly available but **too large to include in this repository**.  
-Please download it from the official source and place it in:
+
+## Additional Details
+
+For detailed usage instructions, see [Usage Guide](docs/usage.pdf)
